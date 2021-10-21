@@ -3,7 +3,7 @@
 
 #include "randomNumber.h"
 
-#define MAX_LEN 100
+#define MAX_LEN 1
 
 bool guessNumber() {
     int numberGuess[MAX_LEN];
@@ -11,7 +11,7 @@ bool guessNumber() {
     printf("Enter a number: ");
     scanf("%d", numberGuess);
 
-    int number = randomNumber(100);
+    int number = randomNumber(1);
 
     if (number == * numberGuess) {
         return true;
