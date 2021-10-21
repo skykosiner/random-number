@@ -6,19 +6,19 @@
 #define MAX_LEN 100
 
 bool guessNumber() {
-  int numberGuess[MAX_LEN];
+    int numberGuess[MAX_LEN];
 
-  printf("Enter a number: ");
-  scanf("%d", numberGuess);
+    printf("Enter a number: ");
+    scanf("%d", numberGuess);
 
-  int number = randomNumber(100);
+    int number = randomNumber(100);
 
-  if (number == * numberGuess) {
-    return true;
-  } else if (number != * numberGuess){
-      printf("The number was %d\n", number);
-      return false;
-  };
+    if (number == * numberGuess) {
+        return true;
+    } else if (number != * numberGuess){
+        printf("The number was %d\n", number);
+        return false;
+    };
 
-  return 0;
+    return 0;
 }
