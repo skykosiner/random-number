@@ -8,9 +8,9 @@ int main() {
 
     bool guess = guessNumber();
 
-    if (guess == true) {
+    if (guess) {
         printf("you were right\n");
-    } else if (guess == false) {
+    } else {
         printf("you were wrong :c\n");
     };
 

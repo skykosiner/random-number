@@ -11,7 +11,9 @@ bool guessNumber() {
     printf("Enter a number: ");
     scanf("%d", numberGuess);
 
-    int number = randomNumber(5);
+    int number = randomNumber(MAX_LEN);
+
+    if (numberGuess > 5) {};
 
     if (number == * numberGuess) {
         return true;
