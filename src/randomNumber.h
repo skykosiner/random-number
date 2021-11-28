@@ -12,6 +12,4 @@ int randomNumber(int maxNumber) {
     srand((unsigned) time(&t));
 
     return rand() % maxNumber;
-
-    return n;
 };

@@ -13,8 +13,6 @@ bool guessNumber() {
 
     int number = randomNumber(MAX_LEN);
 
-    if (numberGuess > 5) {};
-
     if (number == * numberGuess) {
         return true;
     } else if (number != * numberGuess){
@@ -22,5 +20,5 @@ bool guessNumber() {
         return false;
     };
 
-    return 0;
+    return false;
 }
